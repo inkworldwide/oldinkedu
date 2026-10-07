@@ -1,0 +1,71 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# Local env files (NEVER COMMIT PRODUCTION CREDENTIALS)
+backup_snapshot_*/
+backup_*/
+.env
+.env*
+!.env.example
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup database directories and dumps (KEEP LIVE DATA ISOLATED)
+db/
+backup/
+backups/
+dump/
+dumps/
+*.dump
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+mongodb-data/
+data/
+
+# User uploads & document storage
+uploads/
+backend/uploads/
+frontend/public/uploads/
+
+# Scratch scripts and temporary files
+scratch/
+backend/scratch/
+frontend/scratch/
+*.tmp
+*.temp
